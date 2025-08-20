@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\kiran Academy\Spring\SpringDay2_BeansCreation_WithAnnotation"/>
+			<item value="D:\kiran Academy\Spring\SpringWith_XML"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -48,6 +50,10 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Spring_With_DI"/>
+			<item value="Spring_with_DI"/>
+			<item value="SpringDay2_DI_XMLBase"/>
+			<item value="SpringWith_XML"/>
 			<item value="SpringDemo"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -5,7 +5,7 @@ public class Employee {
 	private int emp_id;
 	private String emp_name;
 	private String salary;
-
+    private Couuntry con;
 	public int getEmp_id() {
 		return emp_id;
 	}
@@ -30,16 +30,31 @@ public class Employee {
 		this.salary = salary;
 	}
 
-	@Override
-	public String toString() {
-		return "Employee [emp_id=" + emp_id + ", emp_name=" + emp_name + ", salary=" + salary + "]";
+	public Couuntry getCon() {
+		return con;
 	}
 
-	public Employee(int emp_id, String emp_name, String salary) {
+	public void setCon(Couuntry con) {
+		this.con = con;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [emp_id=" + emp_id + ", emp_name=" + emp_name + ", salary=" + salary + ", con=" + con + "]";
+	}
+
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(int emp_id, String emp_name, String salary, Couuntry con) {
 		super();
 		this.emp_id = emp_id;
 		this.emp_name = emp_name;
 		this.salary = salary;
+		this.con = con;
 	}
 
+	
 }

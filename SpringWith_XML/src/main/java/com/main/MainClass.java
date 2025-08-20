@@ -10,7 +10,7 @@ public class MainClass {
 	public static void main(String[] args) {
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("Springbeans.xml");
-		Employee e = context.getBean("emp",Employee.class);
+		Employee e = context.getBean("emp" ,Employee.class);
 		System.out.println(e);
 
 	}
