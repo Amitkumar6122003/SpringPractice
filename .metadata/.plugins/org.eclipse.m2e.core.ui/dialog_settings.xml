@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\kiran Academy\Spring\SpringDay3_Qualifier_Annotation\src\main\java\com\tka\User.java"/>
+			<item value="D:\kiran Academy\Spring\SpringDemo"/>
+			<item value="D:\kiran Academy\Spring\Spring_With_DI\src\main\java\com\entity\Employee.java"/>
 			<item value="D:\kiran Academy\Spring\SpringDay2_BeansCreation_WithAnnotation"/>
 			<item value="D:\kiran Academy\Spring\SpringWith_XML"/>
 		</list>
@@ -15,6 +18,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -50,11 +54,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="Spring_With_DI"/>
-			<item value="Spring_with_DI"/>
-			<item value="SpringDay2_DI_XMLBase"/>
-			<item value="SpringWith_XML"/>
-			<item value="SpringDemo"/>
+			<item value="SpringAOP"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
